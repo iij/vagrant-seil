@@ -1,0 +1,10 @@
+Vagrant.configure("2") do |config|
+  config.vm.base_mac = "08002741F043"
+  config.vm.guest = "seil"
+  config.vm.communicator = "seil_ssh"
+  config.ssh.username = "admin"
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.check_guest_additions = false
+  end
+end

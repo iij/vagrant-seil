@@ -1,0 +1,10 @@
+en:
+  vagrant_seil:
+    load_from: |-
+      load-from Vagrant...
+    no_synced_folders: |-
+      nothing happens - vagrant-seil does not support synced folders
+    not_saved: |-
+      Warning: configuration is not saved because function key is not installed.
+    save_to_flashrom: |-
+      save-to flashrom...
