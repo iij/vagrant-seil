@@ -8,3 +8,5 @@ en:
       Warning: configuration is not saved because function key is not installed.
     save_to_flashrom: |-
       save-to flashrom...
+    save_to_failed: |-
+      Warning: vagrant-seil failed to save configuration into host file

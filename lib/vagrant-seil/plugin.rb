@@ -27,6 +27,11 @@ module VagrantPlugins
         Config
       end
 
+      command :'seil-save-to-host' do
+        require_relative "command"
+        Command
+      end
+
       provisioner "seil" do
         setup_i18n
         #setup_logging
