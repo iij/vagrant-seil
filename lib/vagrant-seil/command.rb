@@ -12,7 +12,7 @@ module VagrantPlugins
         options = {}
 
         opts = OptionParser.new do |o|
-          o.banner = "Usage: vagrant seil-save-to [options] [name]"
+          o.banner = "Usage: vagrant seil-save-to-host [options] [name]"
           o.separator ""
           o.separator "Options:"
           o.separator ""
