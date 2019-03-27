@@ -34,7 +34,7 @@ SEIL/x86 の Vagrant box イメージは [SEIL/x86 ダウンロードサイト](
 まずは Vagrant box イメージを適当な名前で追加します。
 
 ```
-% vagrant box add --name seil ./seilx86-500.box
+% vagrant box add --name seil ./seilx86-592.box
 ```
 
 最小限の Vagrantfile は以下のようになります。「起動キー」を "starterkey.txt"、「機能キー」を "functionkey.txt" という名前でカレントディレクトリに置いておいてください。
